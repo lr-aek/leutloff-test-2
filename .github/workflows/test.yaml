@@ -1,0 +1,6 @@
+jobs:
+  quality-assurance:
+    steps:
+      - uses: actions/checkout@v1
+      - name: run test
+        run: ./test.sh
