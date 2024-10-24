@@ -2,6 +2,7 @@ on: pull_request
 
 jobs:
   quality-assurance:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - name: run test
